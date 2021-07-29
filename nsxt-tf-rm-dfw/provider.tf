@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "nsxt" {
-   host = "192.168.0.7"
+   host = var.host
    username = "admin"
    password = var.password
    allow_unverified_ssl = true

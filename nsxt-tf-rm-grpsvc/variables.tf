@@ -1,3 +1,7 @@
+variable "host" {
+   type = string
+}
+
 variable "password" {
 }
 

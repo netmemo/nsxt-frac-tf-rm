@@ -1,5 +1,6 @@
 .terraform
 .terraform.lock.hcl 
+perso.auto.tfvars
 plan.out 
 terraform.tfstate
 terraform.tfstate.backup 
