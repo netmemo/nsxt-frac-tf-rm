@@ -16,6 +16,9 @@ map_policies = {
 			scope = ["NETMEMO-NAS"]
 			action = "ALLOW"
 			disabled = "false"
+			logged       = "true"
+			direction    = "IN_OUT"
+			notes  = "Rule comment"			
 	     }
 	     netmemo-rule2 = {
 		    display = "NETMEMO-ESX-R"
@@ -25,6 +28,9 @@ map_policies = {
 			scope = ["NETMEMO-ESX"]
 			action = "ALLOW"
 			disabled = "false"
+			logged       = "true"
+			direction    = "OUT"
+			notes  = "CR#1234"
 	     }
 	  }
    }
@@ -40,6 +46,9 @@ map_policies = {
 			scope = ["NETMEMO-NAS","NETMEMO-ESX"]
 			action = "ALLOW"
 			disabled = "false"
+			logged       = "true"
+			direction    = "IN_OUT"
+			notes  = ""
 	     }
 	  }
    }
